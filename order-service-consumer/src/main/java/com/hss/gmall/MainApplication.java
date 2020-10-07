@@ -14,7 +14,7 @@ public class MainApplication {
 		
 		OrderService orderService = applicationContext.getBean(OrderService.class);
 		
-		orderService.initOrder("");
+		orderService.initOrder("4396");
 		System.out.println("调用完成....");
 		System.in.read();
 	}

@@ -8,7 +8,7 @@ public class UserAddress implements Serializable{
 	/**
 	 * 用户地址
 	 */
-	private String userAddress;
+	private transient String userAddress;
 	/**
 	 * 用户id
 	 */
@@ -20,7 +20,7 @@ public class UserAddress implements Serializable{
 	/**
 	 * 电话号码
 	 */
-	private String phoneNum;
+	private transient String phoneNum;
 	/**
 	 * 是否默认
 	 */
