@@ -1,0 +1,4 @@
+mysql = com.hss.service.impl.MysqlDriverServiceImpl
+oracle =  com.hss.service.impl.OracleDriverServiceImpl
+# 代理类
+com.hss.service.impl.DriverWrapper

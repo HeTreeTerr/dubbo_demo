@@ -1,0 +1,6 @@
+black = com.hss.service.impl.BlackCarServiceImpl
+red = com.hss.service.impl.RedCarServiceImpl
+
+# 读取wrapper对应的实现类，同时提供aop
+wrapper = com.hss.service.impl.CarWrapper
+# @Adaptive(value = "cardType")由该标签的参数值确认之中执行时的实现类
