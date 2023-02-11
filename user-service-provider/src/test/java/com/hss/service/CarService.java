@@ -9,5 +9,5 @@ import com.alibaba.dubbo.common.extension.SPI;
 public interface CarService {
 
     @Adaptive(value = "cardType")
-    public String color(URL url,String name);
+    String color(URL url,String name);
 }
